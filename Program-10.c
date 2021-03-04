@@ -5,10 +5,10 @@
 int main()
 {
    float num, root;
-   printf(" enter the number :");   // Correct the code
+   printf(" enter a number :");   // Correct the code
    scanf("%f", &num);
    // Computes the square root of num and stores in root.
    root = sqrt(num);
-   printf("Square root of %.2f = %.2f", root, num);  // Correct the code
+   printf("Square root of %.2f = %.2f", num, root);  // Correct the code
    return 0;
 }
